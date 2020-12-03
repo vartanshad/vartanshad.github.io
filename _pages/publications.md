@@ -13,7 +13,7 @@ I develop a model of optimal collusive pricing when consumers face search costs 
 
 *Revise & Resubmit, International Journal of Industrial Organization*
 
-**The Welfare Effects and Stability of Semicollusion International Journal of Industrial Organization**  (with Thomas Ross and Leonardo Basso).
+**The Welfare Effects and Stability of Semicollusion**  (with Thomas Ross and Leonardo Basso).
 
 **Learning-Constrained Agents** 
 

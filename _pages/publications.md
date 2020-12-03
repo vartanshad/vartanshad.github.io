@@ -8,15 +8,17 @@ author_profile: true
 
 **Economics**
 
-- Collusive Pricing with Consumer Search  
-*Revise & Resubmit, International Journal of Industrial Organization*
+Shadarevian, Vartan. *Collusive Pricing with Consumer Search.* Revise & Resubmit, International Journal of Industrial Organization.
 
-- The Welfare Effects and Stability of Semicollusion International Journal of Industrial Organization (with Thomas Ross and Leonardo Basso)
+The Welfare Effects and Stability of Semicollusion International Journal of Industrial Organization (with Thomas Ross and Leonardo Basso)
+
+Learning-Constrained Agents.
+
+Partitioned-Cooperation Equilibrium.
 
 **Law**
 
-- Multiple-Rule Cost-Benefit Analysis (with Robert Delaney)  
-*Forthcoming in Charleston Law Review*
+Shadarevian, Vartan, and Robert Delaney. *Multiple-Rule Cost-Benefit Analysis.* Forthcoming in Charleston Law Review.
 
 **Policy**
 

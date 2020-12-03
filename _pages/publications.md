@@ -1,16 +1,17 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
+Economics 
+======
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+
+Collusive Pricing with Consumer Search
+Revise & Resubmit, International Journal of Industrial Organization
+
+The Welfare Effects and Stability of Semicollusion International Journal of Industrial Organization (with Thomas Ross and Leonardo Basso)
+

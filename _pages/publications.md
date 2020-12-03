@@ -7,7 +7,7 @@ author_profile: true
 
 
 Economics 
-======
+===
 
 
 Collusive Pricing with Consumer Search
@@ -16,7 +16,7 @@ Collusive Pricing with Consumer Search
 The Welfare Effects and Stability of Semicollusion International Journal of Industrial Organization (with Thomas Ross and Leonardo Basso)
 
 Law 
-======
+===
 
 Multiple-Rule Cost-Benefit Analysis (with Robert Delaney)
 

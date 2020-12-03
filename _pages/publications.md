@@ -23,11 +23,15 @@ I develop an economic model of learning-constrained agents, who choose a posteri
 **Partitioned-Cooperation Equilibrium**  
 I develop a refinement of Subgame Perfect Equilibrium providing a solution to repeated games where exogenous coalitions of players cooperate, but where coalitions compete against each other.
 
+---
+
 ### Law
 
 ___
 
 Shadarevian, Vartan, and Robert Delaney. **Multiple-Rule Cost-Benefit Analysis**. *Forthcoming in Charleston Law Review*.
+
+---
 
 ### Policy
 

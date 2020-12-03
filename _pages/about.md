@@ -1,3 +1,7 @@
+A data-driven personal website
+======
+This is my personal website.
+
 ---
 permalink: /
 title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
@@ -7,9 +11,3 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-
-
-A data-driven personal website
-======
-This is my personal website.

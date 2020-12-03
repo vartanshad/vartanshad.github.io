@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](http://vartanshad.github.io/files/VSResMin)
+[Download CV](http://vartanshad.github.io/files/VSResMin.pdf)

@@ -15,6 +15,5 @@ author_profile: true
 
 **Law**
 
-- Multiple-Rule Cost-Benefit Analysis (with Robert Delaney)
-
-- Forthcoming in Charleston Law Review
+- Multiple-Rule Cost-Benefit Analysis (with Robert Delaney)  
+*Forthcoming in Charleston Law Review*

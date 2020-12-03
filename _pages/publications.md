@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-##Economics
+#Economics
 
 Collusive Pricing with Consumer Search  
 I develop a model of optimal collusive pricing when consumers face search costs and firms can only verify each other's prices ex-post. Novel results for the optimal level of firm price dispersion are derived. Variance of firm prices is higher than that of a monopolist when discount levels are high, but is lower when discount levels are low.

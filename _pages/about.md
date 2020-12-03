@@ -1,14 +1,12 @@
 ---
 permalink: /
 title: "wow"
-excerpt: "About me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-A data-driven personal website
-======
-This is my personal website.
 
+Welcome to my page. I am currently a Researcher at the Harvard International Postgraduate Research Program. I hold a J.D. from Harvard Law School, an M.A. in Economics from the University of British Columbia, and a B.A. in Philosophy, Politics, and Economics from the University of Oxford.

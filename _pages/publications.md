@@ -28,6 +28,9 @@ I develop a refinement of Subgame Perfect Equilibrium providing a solution to re
 
 Shadarevian, Vartan, and Robert Delaney. **Multiple-Rule Cost-Benefit Analysis**. *Forthcoming in Charleston Law Review*.
 
+**Optimal Rulemaking**  
+I examine the concept of optimality as it applies to rulemaking activities by agencies. The literature has focused on 'narrow optimality' -- the optimality of particular rules when compared to alternatives and the status quo -- at the expense of 'broad optimality' -- the optimality of agency action taken as a whole. I examine the concept of broad optimality, whether it is suitable for assessing agency behavior, and the ways in which agencies might fail to meet the broad optimality standard. Existing critiques of agency behavior are often implicitly concerns about 'broad optimality' and are discussed.
+
 ---
 
 ## Policy

@@ -25,12 +25,12 @@ I develop a refinement of Subgame Perfect Equilibrium providing a solution to re
 
 ### Law
 
----
+___
 
 Shadarevian, Vartan, and Robert Delaney. **Multiple-Rule Cost-Benefit Analysis**. *Forthcoming in Charleston Law Review*.
 
 ### Policy
 
----
+***
 
 Smith, Crispin M.I., and Vartan Shadarevian. 2017. *Wilting in the Kurdish Sun: The Hopes and Fears of Religious Minorities in Northern Iraq*. United States Commission on International Religious Freedom, May.

@@ -14,6 +14,7 @@ author_profile: true
 I develop a model of optimal collusive pricing when consumers face search costs and firms can only verify each other's prices ex-post. Novel results for the optimal level of firm price dispersion are derived. Variance of firm prices is higher than that of a monopolist when discount levels are high, but is lower when discount levels are low.
 
 **The Welfare Effects and Stability of Semicollusion**  (with Thomas Ross and Leonardo Basso).
+Economic paper in which we develop a model where firms set both prices and a second variable (such as quality). Firms can fully collude on both variables, or they can choose to collude on just one of the two variables (semicollusion). We  exmine self-enforcing semicollusion and compare stability and welfare to that of full collusion. 
 
 **Learning-Constrained Agents** 
 I develop an economic model of learning-constrained agents, who choose a posterior subject to a cost that depends on the Kullback-Leibler divergence (a measure of relative entropy of distributions) from the prior. A game-theoretic concept with multiple agents is also defined.
@@ -36,3 +37,4 @@ I examine the concept of optimality as it applies to rulemaking activities by ag
 
 **Wilting in the Kurdish Sun: The Hopes and Fears of Religious Minorities in Northern Iraq** (with Crispin M.I. Smith)
 United States Commission on International Religious Freedom (May 2017)
+Coauthored policy report pursuant to contract with USCIRF to produce report on religious freedom in northern Iraq. Built 10-person research team to analyze statutes, construct region's most exhaustive ethnoreligious mappings from over 800 sources, and statistically analyze satellite data following methodology in Alesina et al. (JPE, 2016). Wrote findings into published policy report (see below). Report used by policymakers including in U.S. Department of State.

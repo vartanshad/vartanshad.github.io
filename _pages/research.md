@@ -35,6 +35,6 @@ I examine the concept of optimality as it applies to rulemaking activities by ag
 
 ## Policy
 
-**Wilting in the Kurdish Sun: The Hopes and Fears of Religious Minorities in Northern Iraq** (with Crispin M.I. Smith)
-United States Commission on International Religious Freedom (May 2017)
+**Wilting in the Kurdish Sun: The Hopes and Fears of Religious Minorities in Northern Iraq** (with Crispin M.I. Smith)  
+United States Commission on International Religious Freedom (May 2017)  
 Coauthored policy report pursuant to contract with USCIRF to produce report on religious freedom in northern Iraq. Built 10-person research team to analyze statutes, construct region's most exhaustive ethnoreligious mappings from over 800 sources, and statistically analyze satellite data following methodology in Alesina et al. (JPE, 2016). Wrote findings into published policy report (see below). Report used by policymakers including in U.S. Department of State.

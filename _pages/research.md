@@ -16,7 +16,7 @@ I develop a model of optimal collusive pricing when consumers face search costs 
 **The Welfare Effects and Stability of Semicollusion**  (with Thomas Ross and Leonardo Basso).
 Economic paper in which we develop a model where firms set both prices and a second variable (such as quality). Firms can fully collude on both variables, or they can choose to collude on just one of the two variables (semicollusion). We  exmine self-enforcing semicollusion and compare stability and welfare to that of full collusion. 
 
-**Learning-Constrained Agents** 
+**Learning-Constrained Agents**  
 I develop an economic model of learning-constrained agents, who choose a posterior subject to a cost that depends on the Kullback-Leibler divergence (a measure of relative entropy of distributions) from the prior. A game-theoretic concept with multiple agents is also defined.
 
 **Partitioned-Cooperation Equilibrium**  

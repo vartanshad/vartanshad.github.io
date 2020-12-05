@@ -12,3 +12,4 @@ In this blog post, I explore the concept of a "learning-constrained agent," and 
 Learning-Constrained Agents
 ======
 
+\\[Equation\\]

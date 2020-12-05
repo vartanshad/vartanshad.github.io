@@ -25,7 +25,6 @@ $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 My proposal: a multiself approach 
 ---------------------------
 
-I propose the following setup. There are two selves: the student the night before, and the student theday of the exam. 
-
+I propose the following setup. There are two selves: the student the night before, and the student the day of the exam. The student the night observes all information, including the realization of a variable X which we call. However, they have a limited ability to retain information. Specifi
 
 

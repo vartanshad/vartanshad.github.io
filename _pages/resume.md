@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Find a pdf copy of my resume [here](http://vartanshad.github.io/files/VSResMin.pdf)
+Please find a pdf version of my Resume [here](http://vartanshad.github.io/files/VSResMin.pdf).

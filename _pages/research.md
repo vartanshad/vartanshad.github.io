@@ -26,7 +26,7 @@ I develop a refinement of Subgame Perfect Equilibrium providing a solution to re
 
 ## Law
 **Multiple-Rule Cost-Benefit Analysis** (with Robert Delaney)  
-*Charleston Law Review*, Forthcoming.
+*Charleston Law Review*, Forthcoming.  
 Federal agencies often conduct cost-benefit analysis (CBA) on a rule individually. However, rules can have ‘positive interdependencies,’ whereby one rule can increase the effectiveness of another rule. They can also have ‘negative interdependencies,’ whereby one rule can decrease the effectiveness of another rule. In a world where agencies pass large numbers of rules, interdependencies between rules confound the validity of individual CBA estimates. In such situations, current CBA practices lead to improper rule promulgation and review, a problem that we term ‘interdependency error.’ This paper develops a Multiple-Rule Cost-Benefit Analysis (MCBA) approach and provides principles and tools that an agency can use when implementing, removing, updating, or replacing a rule. MCBA is compared to current trends towards regulatory budgets and retrospective review; Multiple-Rule Cost-Benefit Analysis extends retrospective review and offers a superior means to address the concerns of regulatory budgeting proponents.
 
 **Optimal Rulemaking**  
@@ -37,5 +37,5 @@ I examine the concept of optimality as it applies to rulemaking activities by ag
 ## Policy
 
 **Wilting in the Kurdish Sun: The Hopes and Fears of Religious Minorities in Northern Iraq** (with Crispin M.I. Smith)  
-United States Commission on International Religious Freedom (May 2017)  
+*United States Commission on International Religious Freedom* (May 2017)  
 Coauthored policy report pursuant to contract with USCIRF to produce report on religious freedom in northern Iraq. Built 10-person research team to analyze statutes, construct region's most exhaustive ethnoreligious mappings from over 800 sources, and statistically analyze satellite data following methodology in Alesina et al. (JPE, 2016). Wrote findings into published policy report (see below). Report used by policymakers including in U.S. Department of State.

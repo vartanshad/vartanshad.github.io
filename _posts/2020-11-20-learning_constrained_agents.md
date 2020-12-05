@@ -25,9 +25,10 @@ $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 My proposal: a multiself approach 
 ---------------------------
 
-I propose the following setup. There are two selves: the student the night before, and the student the day of the exam. The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. $Y$ is distributed according to distribution $Q$. However, they have a limited ability to retain information. Specifically, the student on the night before can only communicate to their future self the outcome of a variable $X$, with distribution $P$. And they face the constraint that
+I propose the following setup. There are two selves: the student the night before (the present student), and the student the day of the exam (the future student). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$ that the present student chooses. This distribution has the same support as $Y$, and moreover there is the following constraint that
 
 $$D_{KL}(P| | Q)< \kappa$$
 
+Where $\kappa$ is some exogenous informational/cognitive constraint. That is, the variable that the future student $X$ sees has a distribution that can only differ from the student's prior by some amount bounded by the Kullback-Leibler constraint. $X$ represents, in a way, the 'memory' of the student. Our constraint is on how much more informative this memory can be than the student's prior -- a measure of what the student is able to 'learn'
 
-
+Our story does not end here. Note that what $P$ is chosen by the agent can (and generally will) depend on the realization that the student

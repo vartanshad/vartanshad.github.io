@@ -24,7 +24,7 @@ $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 
 and is a measure of the distance between the two distributions. The second is **Entropy**, which is measured as
 
-$$H(P) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}\right)$$
+$$H(P) = \sum_{x\in X}P(x)\log \left(P(x)\right)$$
 
 which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
 
@@ -41,7 +41,7 @@ Where $\kappa$ is some exogenous informational/cognitive constraint. $X$ represe
 
 Therefore, our constraint is on how informative this signal can be. When $\kappa$ is very low, the distribution $P$ can be designed by the student so that some outcomes are very unlikely and unlikely, making the signal very informative.
 
-Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy, $tilde{P(y)}$, and forms a posterior -- via Bayes' rule -- based on the signal they saw and the conjecture they held. In equilibrium, this conjecture is correct; the present student indeed finds it optimal to play $tilde{P(y)}$.
+Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy, $\tilde{P(y)}$, and forms a posterior -- via Bayes' rule -- based on the signal they saw and the conjecture they held. In equilibrium, this conjecture is correct; the present student indeed finds it optimal to play $\tilde{P(y)}$.
 
 Behavioral Learning-Constrained Agents
 ------------

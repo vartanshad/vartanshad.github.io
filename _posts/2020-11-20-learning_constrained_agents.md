@@ -39,16 +39,22 @@ I propose the following setup. There are two selves: the student the night befor
 
 $$H(P)> \kappa$$
 
-Where $\kappa$ is some exogenous informational/cognitive constraint. $X$ represents, in a way, the 'memory' of the student. Here, memory acts as a garbled version of reality, which naturally contains some entropy. Our constraint is on how informative this signal can be. When $\kappa$ is very low, the distribution $P$ can be designed by the student so that some outcomes are very unlikely and unlikely, making the signal very informative.
+Where $\kappa$ is some exogenous informational/cognitive constraint. $X$ represents, in a way, the 'memory' of the student. Here, memory acts as a garbled version of reality, which we take here to mean that it is a random variable with a certain amount of entropy. One can also think of this as adding noise to the present student's signal, where we derive a constraint for how much the student can limit this noise that works universally across all information structures.
 
-Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy $P(y)$ and forms a posterior based on the signal they saw and the conjecture they held. In equilibrium, this conjecture proves to be correct.
+Therefore, our constraint is on how informative this signal can be. When $\kappa$ is very low, the distribution $P$ can be designed by the student so that some outcomes are very unlikely and unlikely, making the signal very informative.
+
+Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy, $tilde{P(y)}$, and forms a posterior -- via Bayes' rule -- based on the signal they saw and the conjecture they held. In equilibrium, this conjecture is correct; the present student indeed finds it optimal to play $tilde{P(y)}$.
 
 An alternate version: Kullback-Leibler Distributions
 -----------------
 
-The previous version compared the distribution of the signal that the student can send themselves to the prior distribution that they held before they saw any information. However, another, possibly cleaner version is in terms of entropy, where the constraint above is replaced by:
+The previous version compared the distribution of the signal that the student can send themselves to the prior distribution that they held before they saw any information. However, there is another version where the constraint above is replaced by:
 
 $$D_{KL}(P| | Q)< \kappa$$
 
-That is, the variable that the future student $X$ sees has a distribution that can only differ from the student's prior by some amount bounded by the Kullback-Leibler constraint. By contrast to the former approach, here, the student's prior forms some kind of cognitive 'anchor' for the signal; small deviations from this prior are easier to communicate to the future agent.
+That is, the variable that the future student $X$ sees has a distribution that can only differ from the student's prior by some amount bounded by the Kullback-Leibler constraint. By contrast to the former approach, here, the student's prior forms some kind of cognitive 'anchor' for the signal; memories that are only small deviations from this prior are easier to communicate to the future agent.
+
+Behavioral Learning-Constrained Agents
+------------
+
 

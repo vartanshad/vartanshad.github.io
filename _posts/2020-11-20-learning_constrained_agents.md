@@ -22,11 +22,11 @@ Therefore, to help inform my approach, I use two quantities that are similarly m
 
 $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 
-and is a measure of the distance between the two distributions. The second is **Entropy** which is measured as
+and is a measure of the distance between the two distributions. The second is **Entropy**, which is measured as
 
 $$H(P) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}\right)$$
 
-Which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
+which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
 
 Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see here and here.
 
@@ -46,5 +46,7 @@ Our story does not end here. The future student sees $X$ and must make some deci
 Behavioral Learning-Constrained Agents
 ------------
 
-We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (spaces over distributions!) We might also not need it that future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their Type 1 cognition systems.
+We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (spaces over distributions!) We might also not need it that future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their [System 1 cognition](https://books.google.ca/books?id=ZuKTvERuPG8C&redir_esc=y).
+
+In that sense, future student might be *mechanical*. So we posit the following. An agent 
 

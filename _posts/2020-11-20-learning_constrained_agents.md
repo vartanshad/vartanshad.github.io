@@ -18,11 +18,15 @@ There are two tricky pieces to this problem. First, how do we model the informat
 
 In thinking about this problem, I was reminded of Chris Sim's now famous rational inattention model. We *could* use the Sims framework here. The student might have some limited ability to pay attention to a random variable representing the "right" answer. Given that, the student chooses to allocate their attention strategically. My feeling, though, is that this approach is inadequate, because this decision -- to allocate attention -- is made *blindly*: the student does not see the right answer when they choose what to pay attention to. This feels unrealistic, because as we stipulated, a student has access to all information the night before: they can see everything, including information that would have surprised them when they first saw it.
 
-To help inform my approach, I use two va
-
-Kullback-Leibler Divergence is defined as (in the discrete case):
+To help inform my approach, I use two quantities that are similarly motivated to mutual information. The first is **Kullback-Leibler Divergence** which is defined as (in the discrete case):
 
 $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
+
+and is a measure of the distance between the two distributions. The second is **entropy** which is measured as
+
+$$
+H(P) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}\right)$$
+$$
 
 My proposal: a multiself approach 
 ---------------------------
@@ -38,5 +42,5 @@ Our story does not end here. Note that what $P$ is chosen by the agent can (and 
 An alternate version: entropy
 -----------------
 
-The previous
+The previous version compared the distribution of the signal that the student can send themselves to the prior distribution that they held before they saw any information. However, another, possibly cleaner version is in terms of entropy:
 

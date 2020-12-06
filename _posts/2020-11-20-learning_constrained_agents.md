@@ -37,7 +37,7 @@ I propose the following setup. There are two selves: the student the night befor
 
 $$H(P)> \kappa$$
 
-Where $\kappa$ is some exogenous informational/cognitive constraint. $X$ represents, in a way, the 'memory' of the student. Here, memory acts as a garbled version of reality, which we take here to mean that it is a random variable with a certain amount of entropy. One can also think of this as adding noise to the present student's signal, where we derive a constraint for how much the student can limit this noise that works universally across all information structures.
+Where $\kappa$ is some exogenous informational/cognitive constraint.[^1] $X$ represents, in a way, the 'memory' of the student. Here, memory acts as a garbled version of reality, which we take here to mean that it is a random variable with a certain amount of entropy. One can also think of this as adding noise to the present student's signal, where we derive a constraint for how much the student can limit this noise that works universally across all information structures.
 
 Therefore, our constraint is on how informative this signal can be. When $\kappa$ is very low, the distribution $P$ can be designed by the student so that some outcomes are very unlikely and unlikely, making the signal very informative.
 
@@ -48,5 +48,12 @@ Behavioral Learning-Constrained Agents
 
 We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (spaces over distributions!) We might also not need it that future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their [System 1 cognition](https://books.google.ca/books?id=ZuKTvERuPG8C&redir_esc=y).
 
-In that sense, future student might be *mechanical*. So we posit the following. An agent 
+In that sense, future student might be *mechanical*. So we posit the following. Present student, as before, sees the random variable $Y$ (which has distribution $Q$ which is also the student's prior). They then directly choose the future student's posterior, $P$, subject to the constraint that
+
+$$
+D_{KL}(P||Q) <\kappa
+$$
+
+[^1]: We can also conceive of this in terms of a cost to utility $\kappa(H(P))$.
+
 

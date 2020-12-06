@@ -28,28 +28,27 @@ $$
 H(P) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}\right)$$
 $$
 
-Which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$.
+Which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
+
+Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see here and here.
 
 My proposal: a multiself approach 
 ---------------------------
 
-I propose the following setup. There are two selves: the student the night before (the present student), and the student the day of the exam (the future student). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$, which has the same support as $Q$. The present student chooses the distribution of $P$, subject to the following constraint:
+I propose the following setup. There are two selves: the student the night before (the present student), and the student the day of the exam (the future student). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$, which has the same support as $Q$. The present student chooses the distribution of $P$, subject to the following entropy constraint:
 
-$$D_{KL}(P| | Q)< \kappa$$
+$$H(P)> \kappa$$
 
-Where $\kappa$ is some exogenous informational/cognitive constraint. $X$ represents, in a way, the 'memory' of the student. Here, memory acts as a garbled version of reality. Our constraint is on how much more informative this garbled version can be relative to the student's prior.
+Where $\kappa$ is some exogenous informational/cognitive constraint. $X$ represents, in a way, the 'memory' of the student. Here, memory acts as a garbled version of reality, which naturally contains some entropy. Our constraint is on how informative this signal can be. When $\kappa$ is very low, the distribution $P$ can be designed by the student so that some outcomes are very unlikely and unlikely, making the signal very informative.
 
-Our story does not end here. Note that what $P$ is chosen by the agent can (and generally will) depend on the realization that the student
+Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy $P(y)$ and forms a posterior based on the signal they saw and the conjecture they held. In equilibrium, this conjecture proves to be correct.
 
-An alternate version: entropy
+An alternate version: Kullback-Leibler Distributions
 -----------------
 
 The previous version compared the distribution of the signal that the student can send themselves to the prior distribution that they held before they saw any information. However, another, possibly cleaner version is in terms of entropy, where the constraint above is replaced by:
 
-$$H(P)> \kappa$$
+$$D_{KL}(P| | Q)< \kappa$$
 
-That is, the variable that the future student $X$ sees has a distribution that can only differ from the student's prior by some amount bounded by the Kullback-Leibler constraint. 
-This has a cleaner explanation than the above: memories are imperfect, and so they add noise (they increase in entropy).
-
-The difference between the two approaches is that, in the former approach, the student's prior forms some kind of cognitive 'anchor' for the signal; small deviations from this prior are easier to communicate to the future agent. 
+That is, the variable that the future student $X$ sees has a distribution that can only differ from the student's prior by some amount bounded by the Kullback-Leibler constraint. By contrast to the former approach, here, the student's prior forms some kind of cognitive 'anchor' for the signal; small deviations from this prior are easier to communicate to the future agent.
 

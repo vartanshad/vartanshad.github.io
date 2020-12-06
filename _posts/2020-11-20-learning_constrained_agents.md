@@ -24,9 +24,7 @@ $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 
 and is a measure of the distance between the two distributions. The second is **Entropy** which is measured as
 
-$$
-H(P) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}\right)
-$$
+$$H(P) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}\right)$$
 
 Which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
 

@@ -18,7 +18,7 @@ There are two tricky pieces to this problem. First, how do we model the informat
 
 In thinking about this problem, I was reminded of Chris Sim's now famous rational inattention model. We *could* use the Sims framework here. The student might have some limited ability to pay attention to a random variable representing the "right" answer. Given that, the student chooses to allocate their attention strategically. My feeling, though, is that this approach is inadequate, because this decision -- to allocate attention -- is made *blindly*: the student does not see the right answer when they choose what to pay attention to. This feels unrealistic, because as we stipulated, a student has access to all information the night before: they can see everything, including information that would have surprised them when they first saw it.
 
-Therefore, to help inform my approach, I use two quantities that are similarly motivated to mutual information. The first is **Kullback-Leibler Divergence** which is defined as (in the discrete case):
+Therefore, to help inform my approach, I use two quantities that are similarly motivated to mutual information. The first is **Kullback-Leibler Divergence** (or relative entropy) which is defined as (in the discrete case):
 
 $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 
@@ -28,12 +28,12 @@ $$H(P) = \sum_{x\in X}P(x)\log \left(P(x)\right)$$
 
 which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
 
-Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see here and here.
+Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see [here](https://en.wikipedia.org/wiki/Entropy_(information_theory)) and [here](https://en.wikipedia.org/wiki/Relative_entropy).
 
 Rational Learning-Constrained Agents: A Multiself Approach 
 ---------------------------
 
-I propose the following setup. There are two selves: the student the night before (the present student), and the student the day of the exam (the future student). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$, which has the same support as $Q$. The present student chooses the distribution of $P$, subject to the following entropy constraint:
+I propose the following setup. There are two selves: the student the night before (**the present student**), and the student the day of the exam (**the future student**). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$, which has the same support as $Q$. The present student chooses the distribution of $P$, subject to the following entropy constraint:
 
 $$H(P)> \kappa$$
 

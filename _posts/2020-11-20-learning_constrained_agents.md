@@ -18,7 +18,7 @@ There are two tricky pieces to this problem. First, how do we model the informat
 
 In thinking about this problem, I was reminded of Chris Sim's now famous rational inattention model. We *could* use the Sims framework here. The student might have some limited ability to pay attention to a random variable representing the "right" answer. Given that, the student chooses to allocate their attention strategically. My feeling, though, is that this approach is inadequate, because this decision -- to allocate attention -- is made *blindly*: the student does not see the right answer when they choose what to pay attention to. This feels unrealistic, because as we stipulated, a student has access to all information the night before: they can see everything, including information that would have surprised them when they first saw it.
 
-To help inform my approach, I use two quantities that are similarly motivated to mutual information. The first is **Kullback-Leibler Divergence** which is defined as (in the discrete case):
+Therefore, to help inform my approach, I use two quantities that are similarly motivated to mutual information. The first is **Kullback-Leibler Divergence** which is defined as (in the discrete case):
 
 $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 
@@ -30,7 +30,7 @@ Which is a measure of the expected amount of 'surprise' contained in the realiza
 
 Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see here and here.
 
-My proposal: a multiself approach 
+Rational Learning-Constrained Agents: A Multiself Approach 
 ---------------------------
 
 I propose the following setup. There are two selves: the student the night before (the present student), and the student the day of the exam (the future student). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$, which has the same support as $Q$. The present student chooses the distribution of $P$, subject to the following entropy constraint:
@@ -43,16 +43,8 @@ Therefore, our constraint is on how informative this signal can be. When $\kappa
 
 Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy, $tilde{P(y)}$, and forms a posterior -- via Bayes' rule -- based on the signal they saw and the conjecture they held. In equilibrium, this conjecture is correct; the present student indeed finds it optimal to play $tilde{P(y)}$.
 
-An alternate version: Kullback-Leibler Distributions
------------------
-
-The previous version compared the distribution of the signal that the student can send themselves to the prior distribution that they held before they saw any information. However, there is another version where the constraint above is replaced by:
-
-$$D_{KL}(P| | Q)< \kappa$$
-
-That is, the variable that the future student $X$ sees has a distribution that can only differ from the student's prior by some amount bounded by the Kullback-Leibler constraint. By contrast to the former approach, here, the student's prior forms some kind of cognitive 'anchor' for the signal; memories that are only small deviations from this prior are easier to communicate to the future agent.
-
 Behavioral Learning-Constrained Agents
 ------------
 
+We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (spaces over distributions!) We might also not need it that future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their Type 1 cognition systems.
 

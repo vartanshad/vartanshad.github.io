@@ -43,16 +43,18 @@ Therefore, our constraint is on how informative this signal can be. When $\kappa
 
 Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy, $\tilde{P(y)}$, and forms a posterior -- via Bayes' rule -- based on the signal they saw and the conjecture they held. In equilibrium, this conjecture is correct; the present student indeed finds it optimal to play $\tilde{P(y)}$.
 
-Behavioral Learning-Constrained Agents
+Semi-Behavioral Learning-Constrained Agents
 ------------
 
-We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (spaces over distributions!) We might also not need it that future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their [System 1 cognition](https://books.google.ca/books?id=ZuKTvERuPG8C&redir_esc=y).
+We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (spaces over distributions!) We might also not need that the future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their [System 1 cognition](https://books.google.ca/books?id=ZuKTvERuPG8C&redir_esc=y).
 
 In that sense, future student might be *mechanical*. So we posit the following. Present student, as before, sees the random variable $Y$ (which has distribution $Q$ which is also the student's prior). They then directly choose the future student's posterior, $P$, subject to the constraint that
 
 $$
 D_{KL}(P||Q) <\kappa
 $$
+
+That is, the posterior can differ from the prior only by some amount bounded by $\kappa$, where Kullback-Leibler Divergence is the relevant measure of distance. The future student, being 'semi-behavioral' in that they simply optimize taking their posterior as given (and don't play the kind of multiself equilibrium described above), chooses their action to maximize their expected utility if their beliefs about the true outcome were indeed $Q$.
 
 [^1]: We can also conceive of this in terms of a cost to utility $\kappa(H(P))$.
 

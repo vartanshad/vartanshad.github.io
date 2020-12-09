@@ -30,10 +30,10 @@ which is a measure of the expected amount of 'surprise' contained in the realiza
 
 Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see [here](https://en.wikipedia.org/wiki/Entropy_(information_theory)) and [here](https://en.wikipedia.org/wiki/Relative_entropy). Besides having some desirable mathematical properties, these measures have interpretations in terms of quantifying flows of information. I will outline two different versions of this idea.
 
-Rational Learning-Constrained Agents: A Multiself Approach 
+Rational Learning-Constrained Agents: An Intrapersonal Equilibrium Approach 
 ---------------------------
 
-I propose the following setup. There are two selves: the student the night before (**the present student**), and the student the day of the exam (**the future student**). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$, which has the same support as $Q$. The present student chooses the distribution of $P$, subject to the following entropy constraint:
+I propose the following setup, which is similar in spirit to the model developed in [Bénabou and Tirole (2002)](https://academic.oup.com/qje/article-abstract/117/3/871/1933029). There are two selves: the student the night before (**the present student**), and the student the day of the exam (**the future student**). The student the night observes all information, including the realization of a variable $Y$ which we call the exam's 'right answers'. Call this realization $y$. $Y$ is distributed according to distribution $Q$, which represents the student's prior -- effectively, a representation of the information they have already internalized. However, they have a limited ability to retain information. Specifically, the present student can only communicate to their future self the outcome of a variable $X$, with a distribution $P$, which has the same support as $Q$. The present student chooses the distribution of $P$, subject to the following entropy constraint:
 
 $$H(P)> \kappa$$
 

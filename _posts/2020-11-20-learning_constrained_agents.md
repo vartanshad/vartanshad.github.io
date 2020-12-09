@@ -28,7 +28,7 @@ $$H(P) = \sum_{x\in X}P(x)\log \left(P(x)\right)$$
 
 which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
 
-Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see [here](https://en.wikipedia.org/wiki/Entropy_(information_theory)) and [here](https://en.wikipedia.org/wiki/Relative_entropy).
+Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see [here](https://en.wikipedia.org/wiki/Entropy_(information_theory)) and [here](https://en.wikipedia.org/wiki/Relative_entropy). Besides having some desirable mathematical properties, these measures have interpretations in terms of quantifying flows of information. I will outline two different versions of this idea.
 
 Rational Learning-Constrained Agents: A Multiself Approach 
 ---------------------------

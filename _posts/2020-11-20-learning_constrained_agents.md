@@ -70,7 +70,7 @@ $$
 P(Y = 1|X=0) = \frac{P(X = 0 | Y = 1)P(Y=1)   }{P(X=0) } = \frac{0.5(1-p_h)}{0.5(1-p_h) + 0.5(1-p_l)}
 $$
 
-Under such beliefs, unless $p_l=p_h= 0.5$, is strictly preferable for future student to 'listen' to the signal, setting $a = 1$ if $x = 1$, and $a=0$ if $x=0$. However, clearly, the chance that an error is avoided depends on $p_h$ and $p_l$. The lower $\kappa$ is, the closer to $1$ and $0$ we can get to with $p_h$ and $p_l$ respectively$. 
+Under such beliefs, unless $p_l=p_h= 0.5$, is strictly preferable for future student to 'listen' to the signal, setting $a = 1$ if $x = 1$, and $a=0$ if $x=0$. However, clearly, the chance that an error is avoided depends on $p_h$ and $p_l$. The lower $\kappa$ is, the closer to $1$ and $0$ we can get to with $p_h$ and $p_l$ respectively. 
 
 
 Semi-Behavioral Learning-Constrained Agents

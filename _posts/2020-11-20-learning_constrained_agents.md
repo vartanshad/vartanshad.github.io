@@ -45,11 +45,18 @@ Our story does not end here. The future student sees $X$ and must make some deci
 
 **A Simple Example**
 
-The following example will not necessarily provide new insights, but hopefully will help readers grasp the above concepts. Consider that present student observes variable $Y$, with support $\{ 0,1 \}$. 
+The following example will not necessarily provide new insights, but hopefully will help readers grasp the above concepts. Consider that present student observes variable $Y$, with support $\{ 0,1 \}$. Call this realization $y$.
 
 In everyday terms, this would mean that the student sees the answer to the test the day before, and it is either $0$ or $1$ with equal probability.
 
-Unfortunately, due to some truly abysmal memory, any signal present student chooses to send to future student contains some amount of entropy of at least $\kappa$. This signal $X$ has the same support as $Y$: $\{0,1\}$. Future student observes the realization of $X$, and chooses an action $a \in \{0,1\}$ such that student's utility is $1$ if $a$ matches the realization of 
+Unfortunately, due to some truly abysmal memory, any signal present student chooses to send to future student contains some amount of entropy of at least $\kappa$. This signal $X$ has the same support as $Y$: $\{0,1\}$. Future student observes the realization of $X$, and chooses an action $a \in \{0,1\}$ such that student's utility is $1$ if $a$ matches $y$, and $0$ otherwise.
+
+In this case, the present student's decision effectively boils down to a decision of $p$, where $p = P(X = 1)$. We make an assumption that $P(X=z|Y=z)>P(X=z|Y\neq z)$ for $z\in \{0,1\}$.[^2] 
+
+Given the simple nature of the problem here, we make the following guess about equilibrium (that will prove to be correct): the agent will set $p$ as high as $\kappa$ allows if $y=1$, and as low as possible if $p$. Specifically, given our constraint, this means that
+
+$$p \log \left(p\right) + 1-p log  \left(1-p\right)= \kappa$$
+
 
 
 Semi-Behavioral Learning-Constrained Agents
@@ -72,4 +79,4 @@ That is, the posterior can differ from the prior only by some amount bounded by 
 
 [^1]: We can also conceive of this in terms of a cost to utility $\kappa(H(P))$.
 
-
+[^2]: Technically, present student can use the state $0$ to communicate to future student that $1$ is the right answer, and vice verse. We rule out such equilibria by assumption, but it is true that there is nothing privileged about the labels on the support set.

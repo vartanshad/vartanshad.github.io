@@ -22,11 +22,11 @@ Therefore, to help inform my approach, I use two quantities that are similarly m
 
 $$D_{KL}(P| | Q) = \sum_{x\in X}P(x)\log \left(\frac{P(x)}{Q(x)}\right)$$
 
-and is a measure of the distance between the two distributions. The second is **Entropy**, which is measured as
+and is a measure of the distance between the two distributions. The second, which is only a measure for a single distribution, is **Entropy**, which is measured as
 
 $$H(P) = \sum_{x\in X}P(x)\log \left(P(x)\right)$$
 
-which is a measure of the expected amount of 'surprise' contained in the realization of the distributon. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
+which is a measure of the expected amount of 'surprise' contained in the realization of the distribution. So, if one flips a coin with probability $p$ of landing heads, the entropy is highest when $p=0.5$. Note that the entropy of a distribution is at its maximum for a given support when any of the events are equally likely.
 
 Both these measures have desirable information-theoretic properties. I will not go into this in detail, but see [here](https://en.wikipedia.org/wiki/Entropy_(information_theory)) and [here](https://en.wikipedia.org/wiki/Relative_entropy). Besides having some desirable mathematical properties, these measures have interpretations in terms of quantifying flows of information. I will outline two different versions of this idea.
 
@@ -45,11 +45,11 @@ Our story does not end here. The future student sees $X$ and must make some deci
 
 **A Simple Example**
 
-The following example will not necessarily provide new insights, but hopefully will help readers grasp the above concepts. Consider that present student observes variable $Y$, with support $\{0,1\}$.
+The following example will not necessarily provide new insights, but hopefully will help readers grasp the above concepts. Consider that present student observes variable $Y$, with support $\{ 0,1 \}$. 
 
 In everyday terms, this would mean that the student sees the answer to the test the day before, and it is either $0$ or $1$ with equal probability.
 
-Unfortunately, due to some abysmal memory,
+Unfortunately, due to some truly abysmal memory, any signal present student chooses to send to future student contains some amount of entropy of at least $\kappa$. This signal $X$ has the same support as $Y$: $\{0,1\}$. Future student observes the realization of $X$, and chooses an action $a \in \{0,1\}$ such that student's utility is $1$ if $a$ matches the realization of 
 
 
 Semi-Behavioral Learning-Constrained Agents

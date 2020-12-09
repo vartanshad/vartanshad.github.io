@@ -77,6 +77,6 @@ That is, the posterior can differ from the prior only by some amount bounded by 
 
 
 
-[^1]: We can also conceive of this in terms of a cost to utility $\kappa(H(P))$.
+[^1]: We can also model this in terms of a cost to utility $\kappa(H(P))$.
 
 [^2]: Technically, present student can use the state $0$ to communicate to future student that $1$ is the right answer, and vice verse. We rule out such equilibria by assumption, but it is true that there is nothing privileged about the labels on the support set.

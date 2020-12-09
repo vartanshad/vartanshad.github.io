@@ -46,7 +46,7 @@ Our story does not end here. The future student sees $X$ and must make some deci
 Semi-Behavioral Learning-Constrained Agents
 ------------
 
-We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (spaces over distributions!) We might also not need that the future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their [System 1 cognition](https://books.google.ca/books?id=ZuKTvERuPG8C&redir_esc=y).
+We might prefer a different approach. The above model might become intractable, since it involves us finding a fixed point when we are dealing with large strategy spaces (in our case, spaces over distributions). We might also not necessarily believe that the future student does the kind of complicated equilibrium inference that they do in the multiself approach. They might have to simply 'do' with the memory that they have internalized, engaging their [System 1 cognition](https://books.google.ca/books?id=ZuKTvERuPG8C&redir_esc=y).
 
 In that sense, future student might be *mechanical*. So we posit the following. Present student, as before, sees the random variable $Y$ (which has distribution $Q$ which is also the student's prior). They then directly choose the future student's posterior, $P$, subject to the constraint that
 

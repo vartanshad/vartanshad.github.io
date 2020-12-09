@@ -43,6 +43,15 @@ Therefore, our constraint is on how informative this signal can be. When $\kappa
 
 Our story does not end here. The future student sees $X$ and must make some decision (such as what to write on the exam). Note that what $P$ is chosen by the student can (and generally will) depend on the realization that they saw. Therefore, call the present student's strategy $P(y)$. The future student has a conjecture about this strategy, $\tilde{P(y)}$, and forms a posterior -- via Bayes' rule -- based on the signal they saw and the conjecture they held. In equilibrium, this conjecture is correct; the present student indeed finds it optimal to play $\tilde{P(y)}$.
 
+**A Simple Example**
+
+The following example will not necessarily provide new insights, but hopefully will help readers grasp the above concepts. Consider that present student observes variable $Y$, with support $\{0,1\}$.
+
+In everyday terms, this would mean that the student sees the answer to the test the day before, and it is either $0$ or $1$ with equal probability.
+
+Unfortunately, due to some abysmal memory,
+
+
 Semi-Behavioral Learning-Constrained Agents
 ------------
 

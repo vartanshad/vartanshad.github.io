@@ -51,7 +51,7 @@ In everyday terms, this would mean that the student sees the answer to the test 
 
 Unfortunately, due to some truly abysmal memory, any signal present student chooses to send to future student contains some amount of entropy of at least $\kappa$. This signal $X$ has the same support as $Y$: $\lbrace0,1\rbrace$. Future student observes the realization of $X$, and chooses an action $a \in \lbrace0,1 \rbrace$ such that student's utility is $1$ if $a$ matches $y$, and $0$ otherwise.
 
-We make an assumption that $P(X=z\vertY=z)>P(X=z\vertY\neq z)$ for $z\in \lbrace0,1 \rbrace$. In this case, the present student's decision effectively boils down to a decision of $p$, where $p = P(X = 1)$. [^2] 
+We make an assumption that $P(X=z\vert Y=z)>P(X=z\vert Y\neq z)$ for $z\in \lbrace0,1 \rbrace$. In this case, the present student's decision effectively boils down to a decision of $p$, where $p = P(X = 1)$. [^2] 
 
 Given the simple nature of the problem here, we make the following guess about equilibrium (that will prove to be correct): the agent will set $p$ as high as $\kappa$ allows if $y=1$, and as low as possible if $p$. Specifically, given our constraint, this means that
 

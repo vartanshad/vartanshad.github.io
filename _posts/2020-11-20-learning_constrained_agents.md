@@ -70,7 +70,11 @@ $$
 P(Y = 1|X=0) = \frac{P(X = 0 | Y = 1)P(Y=1)   }{P(X=0) } = \frac{0.5(1-p_h)}{0.5(1-p_h) + 0.5(1-p_l)}
 $$
 
-Under such beliefs, unless $p_l=p_h= 0.5$, is strictly preferable for future student to 'listen' to the signal, setting $a = 1$ if $x = 1$, and $a=0$ if $x=0$. However, clearly, the chance that an error is avoided depends on $p_h$ and $p_l$. The lower $\kappa$ is, the closer to $1$ and $0$ we can get to with $p_h$ and $p_l$ respectively. 
+Under such beliefs, unless $p_l=p_h= 0.5$, is strictly preferable for future student to 'listen' to the signal, setting $a = 1$ if $x = 1$, and $a=0$ if $x=0$. 
+
+It is easy to check that this is an equilibrium. Given the response of future student, present student indeed finds it optimal to set $p_h$ or $p_l$ depending on the signal that they saw.
+
+Clearly, the chance that an error is avoided depends on $p_h$ and $p_l$. The lower $\kappa$ is, the closer to $1$ and $0$ we can get to with $p_h$ and $p_l$ respectively, and the more accurate the future student's posterior is. Low $\kappa$ means a student with great learning ability, who can really hammer in those memories and reduce the chance of making an error on the exam.
 
 
 Semi-Behavioral Learning-Constrained Agents

@@ -92,9 +92,9 @@ Some interesting differences arise in this version. You can get truly non-Bayesi
 Parting Thoughts
 ---------------------
 
-It's a start. This is obviously just a starting point for further inquiry. But a preliminary look at the literature has shown me very little on the idea of strategic or rational learning choices, and certainly nothing tying it to information-theoretic concepts like entropy. I will need to search further. 
+It's a start. This is obviously just a starting point for questions I am working on. But a preliminary look at the literature has shown me very little on the idea of strategic or rational learning choices, and certainly nothing tying it to information-theoretic concepts like entropy (assuming I'm not missing anything!) 
 
-In the meanwhile, I should also start thinking about the interesting implications of such a theory. How does the semi-behavioral learning-constrained agent differ from the rational one. What results can one generate from this framework that might be surprising? How does it differ (qualitatively) from the rational inattention framework?
+In the meanwhile, there is much more to be said about interesting implications of such a theory. How does the semi-behavioral learning-constrained agent differ from the rational one. What results can one generate from this framework that might be surprising? How does it differ (qualitatively) from the rational inattention framework?
 
 More to come.
 

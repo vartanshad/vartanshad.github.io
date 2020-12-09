@@ -72,6 +72,7 @@ $$
 
 That is, the posterior can differ from the prior only by some amount bounded by $\kappa$, where Kullback-Leibler Divergence is the relevant measure of distance. The future student, being 'semi-behavioral' in that they simply optimize taking their posterior as given (and don't play the kind of multiself equilibrium described above), chooses their action to maximize their expected utility if their beliefs about the true outcome were indeed $Q$.
 
+Some interesting differences arise in this version. You can get truly non-Bayesian updating, and in some cases the student might prefer to 'fool' future student to get better decisions. But that will come in the next part.
 
 
 

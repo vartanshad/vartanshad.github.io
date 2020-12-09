@@ -51,13 +51,25 @@ In everyday terms, this would mean that the student sees the answer to the test 
 
 Unfortunately, due to some truly abysmal memory, any signal present student chooses to send to future student contains some amount of entropy of at least $\kappa$. This signal $X$ has the same support as $Y$: $\lbrace0,1\rbrace$. Future student observes the realization of $X$, and chooses an action $a \in \lbrace0,1 \rbrace$ such that student's utility is $1$ if $a$ matches $y$, and $0$ otherwise.
 
-In this case, the present student's decision effectively boils down to a decision of $p$, where $p = P(X = 1)$. We make an assumption that $P(X=z|Y=z)>P(X=z|Y\neq z)$ for $z\in \lbrace0,1 \rbrace$.[^2] 
+We make an assumption that $P(X=z|Y=z)>P(X=z|Y\neq z)$ for $z\in \lbrace0,1 \rbrace$.[^2] 
 
 Given the simple nature of the problem here, we make the following guess about equilibrium (that will prove to be correct): the agent will set $p$ as high as $\kappa$ allows if $y=1$, and as low as possible if $p$. Specifically, given our constraint, this means that
 
 $$p \log \left(p\right) + 1-p log  \left(1-p\right)= \kappa$$
 
-There are two values that meet such a standard. Call these $p_{l}(\kappa)$ and $p_{h}(\kappa)$. Now, if future student indeed believes
+There are two values that meet such a standard. Call these $p_{l}(\kappa)$ and $p_{h}(\kappa)$. Now, if future student indeed believes these are the probabilities that present student will choose they form the following posterior beliefs:
+
+In this case, the present student's decision effectively boils down to a decision of $p$, where $p = P(X = 1)$. 
+
+$$
+P(Y = 1|X=1) = \frac{P(X = 1 | Y = 1)P(Y=1)   }{P(X=1) } = \frac{0.5p_h}{0.5p_h + 0.5 p_l}
+$$
+
+and
+
+$$
+P(Y = 1|X=0) = \frac{P(X = 0 | Y = 1)P(Y=1)   }{P(X=0) } = \frac{0.5(1-p_h)}{0.5(1-p_h) + 0.5(1-p_l)}
+$$
 
 
 

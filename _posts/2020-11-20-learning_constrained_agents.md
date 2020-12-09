@@ -51,7 +51,7 @@ In everyday terms, this would mean that the student sees the answer to the test 
 
 Unfortunately, due to some truly abysmal memory, any signal present student chooses to send to future student contains some amount of entropy of at least $\kappa$. This signal $X$ has the same support as $Y$: $\lbrace0,1\rbrace$. Future student observes the realization of $X$, and chooses an action $a \in \lbrace0,1 \rbrace$ such that student's utility is $1$ if $a$ matches $y$, and $0$ otherwise.
 
-We make an assumption that $P(X=z\vert Y=z)>P(X=z\vert Y\neq z)$ for $z\in \lbrace0,1 \rbrace$. In this case, the present student's decision effectively boils down to a decision of $p$, where $p = P(X = 1)$. [^2] 
+In this case, the present student's decision effectively boils down to a decision of $p$, where $p = P(X = 1)$. We make an assumption that $P(X=z\vert Y=z)>P(X=z\vert Y\neq z)$ for $z\in \lbrace0,1 \rbrace$.[^2] 
 
 Given the simple nature of the problem here, we make the following guess about equilibrium (that will prove to be correct): the agent will set $p$ as high as $\kappa$ allows if $y=1$, and as low as possible if $p$. Specifically, given our constraint, this means that
 
@@ -89,7 +89,14 @@ That is, the posterior can differ from the prior only by some amount bounded by 
 Some interesting differences arise in this version. You can get truly non-Bayesian updating, and in some cases the student might prefer to 'fool' future student to get better decisions. But that will come in the next part.
 
 
+Parting Thoughts
+---------------------
 
+It's a start. This is obviously just a starting point for further inquiry. But a preliminary look at the literature has shown me very little on the idea of strategic or rational learning choices, and certainly nothing tying it to information-theoretic concepts like entropy. I will need to search further. 
+
+In the meanwhile, I should also start thinking about the interesting implications of such a theory. How does the semi-behavioral learning-constrained agent differ from the rational one. What results can one generate from this framework that might be surprising? How does it differ (qualitatively) from the rational inattention framework?
+
+More to come.
 
 
 [^1]: We can also model this in terms of a cost to utility $\kappa(H(P))$.

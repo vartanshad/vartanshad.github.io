@@ -13,4 +13,4 @@ Welcome to my page. I am currently a Researcher at the Harvard Law School Intern
 
 I'm interested in economics, finance, and the intersection of law with these subjects. My research focuses on industrial organization and political economy, particularly as it relates to regulatory bodies. I am also interested in developing behavioral economics and game-theoretic concepts that capture the richness of human behavior as observed, and using those concepts to explain larger scale phenomena in markets and government. You can see my research [here](https://vartanshad.github.io/research/).
 
-I hold a J.D. from Harvard Law School, an M.A. in Economics from the University of British Columbia, and a B.A. in Philosophy, Politics, and Economics from the University of Oxford. In 2021, I will be starting as an associate at Skadden, Arps's DC office.
+I hold a J.D. from Harvard Law School, an M.A. in Economics from the University of British Columbia, and a B.A. in Philosophy, Politics, and Economics from the University of Oxford. 
